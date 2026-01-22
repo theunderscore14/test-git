@@ -5,6 +5,9 @@ void calculateSum(int x, int y) {
 }
 
 int main() {
-    calculateSum(5, 10);
+    int x, y;
+    printf("Enter Two Numbers: ");
+    scanf("%d %d", &x, &y);
+    calculateSum(x, y);
     return 0;
 }
