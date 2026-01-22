@@ -1,0 +1,9 @@
+output/
+build/
+bin/
+
+*.o
+*.obj
+*.exe
+*.out
+*.gdb
