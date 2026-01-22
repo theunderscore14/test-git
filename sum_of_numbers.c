@@ -9,6 +9,5 @@ int main() {
     printf("Enter Two Numbers: ");
     scanf("%d %d", &x, &y);
     calculateSum(x, y);
-    calculateSum(x, y);
     return 0;
 }
