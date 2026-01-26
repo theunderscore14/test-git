@@ -36,3 +36,15 @@ elif age < 20:
     print("You are a teenager.")
 
 mySquad = ['Calafiori', 'Martinelli', 'Nwaneri', 'Havertz', 'Madueke', 'Kepa']
+print(mySquad[2])
+mySquad[0] = 'Saka'
+print(mySquad)
+mySquad.append('Kepa')
+print(mySquad)
+mySquad.insert(1, 'Zubimendi')
+print(mySquad)
+mySquad.pop(6)
+print(mySquad)
+print(len(mySquad))
+for player in mySquad:
+    print(player)
