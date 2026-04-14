@@ -51,5 +51,10 @@ public class Main {
         double c = 10.0d;
         double d = 3.0d;
         System.out.println(c/d);
+        String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        System.out.println("The length of the text is " + txt.length());
+        String text = "Hello World";
+        System.out.println(text.toUpperCase());
+        System.out.println(text.toLowerCase());
     }
 }
