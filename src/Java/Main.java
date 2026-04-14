@@ -56,5 +56,8 @@ public class Main {
         String text = "Hello World";
         System.out.println(text.toUpperCase());
         System.out.println(text.toLowerCase());
+
+        System.out.println(Math.max(123,1));
+        System.out.println(Math.min(124124, 1241242));
     }
 }
